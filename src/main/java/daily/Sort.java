@@ -21,7 +21,7 @@ public class Sort {
 	        Arrays.sort(numbers);
 
 	        // Print the sorted array
-	        System.out.println("Sorted array: " + Arrays.toString(numbers));
+	        System.out.println("Sorted array in ascending order: " + Arrays.toString(numbers));
 	    }
 	 
 	 /**
@@ -44,4 +44,11 @@ public class Sort {
 	    } 
 	 
 	 
+	    public static void main(String [] args) {
+	    	 Ascending();
+	    	Descending();
+	    }
+	    
 }
+
+
